@@ -1,0 +1,18 @@
+.color {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	-webkit-animation: colorchange 4s linear 2s infinite alternate;
+	filter: invert(52%) sepia(93%) saturate(787%) hue-rotate(176deg) brightness(97%) contrast(86%);
+	opacity:0;
+}
+@keyframes colorchange {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+		
